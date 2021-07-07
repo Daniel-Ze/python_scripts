@@ -4,7 +4,7 @@ The script performs **n** random samplings with **x** sequences each.
 Install the requirements with pip:
 
 ```bash
-(base) 💻 daniel:python_scripts $ pip install -r random_select_multi_requirementes.txt 
+(base) 💻 daniel:random_select_multi $ pip install -r random_select_multi_requirementes.txt 
 ```
 
 You need a index file:
@@ -15,7 +15,7 @@ awk '/>/{if (l!="") print l; print; l=0; next} {l+=length($0)} END {print l}' ge
 The script has the following options:
 
 ```bash 
-(base) 💻 daniel:python_scripts $ python3 random_select_multi.py 
+(base) 💻 daniel:random_select_multi $ python3 random_select_multi.py 
 
 
 Usage: python random_select_multi.py -i fasta.fai -n 100 -s 300 -r 200:20000 -c 1
