@@ -1,5 +1,5 @@
 # split_chunk.py
-A script to split a multifasta file into **n** chunks. Just give the script the number of chunks to create and the output will be a **tmp/** folder with the chunks.
+A script to split a multifasta file into **n** chunks. Just give the script the number of chunks to create and the output will be a **tmp/** folder with the sequence fasta file chunks.
 
 The script has the following options:
 
