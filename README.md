@@ -5,7 +5,7 @@ Collection of python scripts written over time:
 \
 Create random coordinates for random sequences in genomes.
 \
-\
+
 - **split_chunk.py**
 \
 Split a multi-fasta file into **n** chunks.
