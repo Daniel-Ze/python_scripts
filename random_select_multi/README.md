@@ -28,4 +28,6 @@ Usage: python random_select_multi.py -i fasta.fai -n 100 -s 300 -r 200:20000 -c 
         -c / --cpus=    Number CPUs to use
 ```
 
+The script does the following:
 
+![Flowchart of random_select_multi.py](img/random_select_multi_flowchart1.png)
