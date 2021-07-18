@@ -1,7 +1,7 @@
 # Collection of python scripts
 Collection of python scripts written over time:
 
-- **random_select_multi.py**
+- [**random_select_multi.py**](https://github.com/Daniel-Ze/python_scripts/tree/main/split_chunk)
 \
 Create random coordinates for random sequences in genomes.
 
