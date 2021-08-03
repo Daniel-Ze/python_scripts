@@ -18,7 +18,7 @@ The script has the following options:
 (base) 💻 daniel:random_select_multi $ python3 random_select_multi.py 
 
 
-Usage: python random_select_multi.py -i fasta.fai -n 100 -s 300 -r 200:20000 -c 1
+Usage: python random_select_multi.py -i genome.index -n 100 -s 300 -r 200:20000 -c 1
 
 
         -i / --input=   Index of fasta file e.g. Seq1   199192370
