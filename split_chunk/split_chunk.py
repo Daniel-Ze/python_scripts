@@ -14,7 +14,7 @@ def usage():
     print("Usage: python split_chunk.py -i fasta.fa -c 500 -p prefix")
     print("\t-h print this help")
     print("\t-i / --input=\tfasta file")
-    print("\t-c / --seqs=\tnumber of sequence chunks")
+    print("\t-c / --chunks=\tnumber of sequence chunks")
     print("\t-f / --force\tForce removal of tmp if it exists")
     print("\t-p / --prefix=\tNaming of sequence chunks\n")
     exit()
