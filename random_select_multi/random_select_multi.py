@@ -12,7 +12,7 @@ def usage():
     """Simple function returning the usage information for the script."""
 
     print("\n")
-    print("Usage: python random_coordinates.py -i fasta.fai -n 100 -s 300 -r 200:20000 -c 10")
+    print("Usage: python random_select_multi.py -i fasta.fai -n 100 -s 300 -r 200:20000 -c 10")
     print("\n")
     print("\t-i / --input=\tIndex of fasta file e.g. Seq1\t199192370")
     print("\t-n / --nsample=\tNumber of times to draw random samples (default 100)")
