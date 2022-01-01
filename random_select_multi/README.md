@@ -1,3 +1,5 @@
+![Header](img/randomsampling_header.png)
+
 # random_select_multi.py
 A script to select random coordinates for sequences in genomes. The scripts stores the coordinates in .bed format for further processing.
 The script performs **n** random samplings with **x** sequences each. 
