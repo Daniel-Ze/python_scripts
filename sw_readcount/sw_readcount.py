@@ -1,4 +1,4 @@
-#!/us/bin/env python
+#!/usr/bin/env python
 
 from math import factorial
 import pysam
