@@ -1,6 +1,10 @@
 # Collection of python scripts
 Collection of python scripts written over time:
 
+- [**oma_go.py**](https://github.com/Daniel-Ze/python_scripts/tree/main/oma_go)
+\
+Qurey the OMA database for GO annotations of protein sequences.
+
 - [**random_select_multi.py**](https://github.com/Daniel-Ze/python_scripts/tree/main/random_select_multi)
 \
 Create random coordinates for random sequences in genomes.
