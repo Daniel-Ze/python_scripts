@@ -13,6 +13,6 @@ Rename images in a folder with a list of names.
 \
 Split a multi-fasta file into **n** chunks.
 
-- [**sw_readcount.py**](https://github.com/Daniel-Ze/python_scripts/tree/main/sw_readcout)
+- [**sw_readcount.py**](https://github.com/Daniel-Ze/python_scripts/tree/main/sw_readcount)
 \
 Non overlapping sliding window counting of mapped reads.
