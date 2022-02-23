@@ -1,0 +1,6 @@
+pandas
+omadb
+os
+sys
+getopt
+setuptools
