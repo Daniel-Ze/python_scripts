@@ -2,7 +2,7 @@
 A script that uses a sliding window to count mapped reads in sorted bam files.
 Useful for visualizing read mappings with e.g. gggenomes (https://github.com/thackl/gggenomes).
 
-![image](example.jpg)
+<img src="example.jpg" alt="drawing" width="1000"/>
 
 It requires pysam:
 
