@@ -13,10 +13,10 @@ Create random coordinates for random sequences in genomes.
 \
 Rename images in a folder with a list of names.
 
+- [**sliding_window**](https://github.com/Daniel-Ze/python_scripts/tree/main/sliding_window)
+\
+Non overlapping sliding window counting of mapped reads and annotated genes.
+
 - [**split_chunk.py**](https://github.com/Daniel-Ze/python_scripts/tree/main/split_chunk)
 \
 Split a multi-fasta file into **n** chunks.
-
-- [**sw_readcount.py**](https://github.com/Daniel-Ze/python_scripts/tree/main/sw_readcount)
-\
-Non overlapping sliding window counting of mapped reads.
