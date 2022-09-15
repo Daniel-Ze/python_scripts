@@ -36,7 +36,7 @@ Just add the new desired name into the second column "New_name" and your set.
 
 2. Run the script as indicated with the flags **-n**, **-i**, **-t** and optional **-p**.
 By adding -q you silence the majority of the output. By adding -d the script will only print what it is going to do.
-You can check if everything after your liking. Once you're happy just run the script without -d.
+You can check if everything is according to your likes. Once you're happy just run the script without -d.
 
 ```bash
 (base) 💻 daniel:rename_pics $ python rename.py -n new_name_list.tsv -i test1/ -t .JPG -p 7dpi -q
