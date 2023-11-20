@@ -81,25 +81,6 @@ class TallyCounter:
             key = stdscr.getch()  # Get the unicode code of the pressed key
 
             if key == ord('q'):  # Check if the unicode code matches that of the unicode code of 'q'
-                # get everthing ready to write counts to file
-                #cwd = os.getcwd()
-                # get a unique identifier if the user forgets to supply a output name
-                #  - use date and time
-                #current_datetime = datetime.datetime.now()
-                #  - format as string removing the mili seconds
-                #fmt_datetime = current_datetime.strftime("%Y%m%d_%H%M%S")
-                
-                # check if the user forgot to add an output name and set a standard one if so
-                #if self.out == None:
-                #    self.out = "tally_out"
-                
-                # create the output file, open it and write the data to it
-                #with open(cwd+"/"+self.out+"_"+str(fmt_datetime)+".log", "w") as out_file:
-                #    out_file.write("nr\tTally\tcount\n")
-                #    for i,j in enumerate(self.options, start=0):
-                #        out_file.write(str(str(i+1)+"\t"+self.options[i]+"\t"+str(self.counters[j])+"\n"))
-                # break the while loop
-                
                 self.write_results()
                 
                 break
