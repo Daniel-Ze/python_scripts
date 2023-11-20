@@ -91,14 +91,14 @@ class TallyCounter:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Tally counter with keyboard input.")
-    parser.add_argument("-t", "--tallys", type=str, help="Comma-separated list of options.")
+    parser.add_argument("-t", "--tallies", type=str, help="Comma-separated list of options.")
     parser.add_argument("-o", "--out", type=str, help="Name of the output (default tally_out_datetime)")
     args = parser.parse_args()
 
-    if not args.tallys:
+    if not args.tallies:
         parser.error("Please provide options using the -t flag.")
 
-    options = args.tallys.split(',')
+    options = args.tallies.split(',')
     tally_counter = TallyCounter(options, args.out)    
     curses.wrapper(tally_counter.main)
 
