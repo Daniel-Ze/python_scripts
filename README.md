@@ -20,3 +20,7 @@ Non overlapping sliding window counting of mapped reads and annotated genes.
 - [**split_chunk.py**](https://github.com/Daniel-Ze/python_scripts/tree/main/split_chunk)
 \
 Split a multi-fasta file into **n** chunks.
+
+- [**tallycounter.py**](https://github.com/Daniel-Ze/python_scripts/tree/main/tallycounter)
+\
+A simple counter for when you have to count multiple things at the same time.
